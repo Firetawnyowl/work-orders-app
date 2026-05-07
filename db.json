@@ -1,0 +1,81 @@
+{
+  "orders": [
+    {
+      "id": "WO-001",
+      "client": "ООО ТехноСервис",
+      "workType": "Ремонт оборудования",
+      "status": "in_progress",
+      "priority": "high",
+      "deadline": "2025-03-15",
+      "assignee": "Алексей Иванов",
+      "comment": "Требуется замена блока питания",
+      "createdAt": "2025-03-01T10:00:00Z"
+    },
+    {
+      "id": "WO-002",
+      "client": "ИП Петров",
+      "workType": "Настройка ПО",
+      "status": "new",
+      "priority": "medium",
+      "deadline": "2025-03-20",
+      "assignee": "Мария Смирнова",
+      "comment": "Установка и настройка CRM",
+      "createdAt": "2025-03-02T09:30:00Z"
+    },
+    {
+      "id": "WO-003",
+      "client": "АО СтройИнвест",
+      "workType": "Консультация",
+      "status": "done",
+      "priority": "low",
+      "deadline": "2025-03-10",
+      "assignee": "Дмитрий Орлов",
+      "comment": "Консультация по выбору оборудования",
+      "createdAt": "2025-02-28T14:20:00Z"
+    },
+    {
+      "id": "WO-004",
+      "client": "ООО Логистик",
+      "workType": "Ремонт техники",
+      "status": "cancelled",
+      "priority": "low",
+      "deadline": "2025-03-05",
+      "assignee": "Алексей Иванов",
+      "comment": "Заказ отменен клиентом",
+      "createdAt": "2025-02-25T11:15:00Z"
+    },
+    {
+      "id": "WO-005",
+      "client": "ЗАО МедиаГрупп",
+      "workType": "Модернизация",
+      "status": "new",
+      "priority": "high",
+      "deadline": "2025-03-25",
+      "assignee": "Елена Воронина",
+      "comment": "Апгрейд серверного оборудования",
+      "createdAt": "2025-03-03T08:45:00Z"
+    },
+    {
+      "id": "WO-006",
+      "client": "ООО Ритейл+",
+      "workType": "Интеграция",
+      "status": "in_progress",
+      "priority": "medium",
+      "deadline": "2025-03-18",
+      "assignee": "Мария Смирнова",
+      "comment": "Интеграция с 1С",
+      "createdAt": "2025-03-01T16:30:00Z"
+    },
+    {
+      "id": "WO-007",
+      "client": "ИП Сидоров",
+      "workType": "Ремонт оборудования",
+      "status": "new",
+      "priority": "high",
+      "deadline": "2025-03-12",
+      "assignee": "Алексей Иванов",
+      "comment": "Срочный ремонт принтера",
+      "createdAt": "2025-03-04T10:00:00Z"
+    }
+  ]
+}
