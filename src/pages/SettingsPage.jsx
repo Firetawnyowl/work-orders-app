@@ -21,11 +21,11 @@ export default function SettingsPage() {
             <Group>
               {colorScheme === 'dark' ? <IconMoon size={24} /> : <IconSun size={24} />}
               <div>
-                {colorScheme === 'dark' ? <Text fw={500}>Темная тема</Text> : <Text fw={500}>Светлая тема</Text> }
+                {colorScheme === 'dark' ? <Text fw={500}>Тёмная тема</Text> : <Text fw={500}>Светлая тема</Text> }
                 {
                   colorScheme === 'dark' ? 
                   <Text size="sm" c="dimmed">Включить светлый режим интерфейса</Text> : 
-                  <Text size="sm" c="dimmed">Включить темный режим интерфейса</Text> 
+                  <Text size="sm" c="dimmed">Включить тёмный режим интерфейса</Text> 
                 }
               </div>
             </Group>
